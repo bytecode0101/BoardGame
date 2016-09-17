@@ -23,5 +23,11 @@ namespace BoardGame
             Console.WriteLine("Pawn: " + name);
             Location.Print();
         }
+
+        public void Move(int x, int y)
+        {
+            Location.X = x;
+            Location.Y = y;
+        }
     }
 }

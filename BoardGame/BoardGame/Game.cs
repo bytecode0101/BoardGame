@@ -9,6 +9,7 @@ namespace BoardGame
     {
         private Map map;
         private List<Pawn> pawns;
+        private DiceThrower diceThrower;
 
         public Map Map
         {
@@ -36,15 +37,40 @@ namespace BoardGame
             }
         }
 
+        public DiceThrower DiceThrower
+        {
+            get
+            {
+                return diceThrower;
+            }
+
+            set
+            {
+                diceThrower = value;
+            }
+        }
+
         public void Run()
         {
             LoadGame();
             PrintMap();
+
+            Play();
+        }
+
+        private void Play()
+        {
+            Console.ReadLine();
+            Console.Clear();
+            Pawns[0].Move(3, 4);
+            PrintMap();
+          var dt =  DiceThrower.ThrowDices();
         }
 
         private void PrintMap()
         {
             Map.Print();
+            PrintPawns();
         }
 
         private void LoadGame()
@@ -59,7 +85,10 @@ namespace BoardGame
             var p2 = new Pawn(Map.Height - 1, Map.Width - 1, "B");
             Pawns.Add(p1);
             Pawns.Add(p2);
-            PrintPawns();
+
+            DiceThrower = new DiceThrower();
+           
+
         }
 
         private void PrintPawns()
