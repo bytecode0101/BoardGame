@@ -7,15 +7,19 @@ namespace BoardGame
 {
     public class Point
     {
+        private int x;
+        private int y;
+
         public int X
         {
             get
             {
-                throw new System.NotImplementedException();
+                return x;
             }
 
             set
             {
+                x = value;
             }
         }
 
@@ -23,12 +27,18 @@ namespace BoardGame
         {
             get
             {
-                throw new System.NotImplementedException();
+                return y;
             }
 
             set
             {
+                y = value;
             }
+        }
+
+        internal void Print()
+        {
+            Console.WriteLine("Location: {0}, {1}", X, Y);
         }
     }
 }

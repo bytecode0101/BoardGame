@@ -7,9 +7,9 @@ namespace BoardGame
 {
     public class Tile
     {
-        private AbstractMapElement element;
+        private Resource element;
 
-        public AbstractMapElement Element
+        public Resource Element
         {
             get
             {

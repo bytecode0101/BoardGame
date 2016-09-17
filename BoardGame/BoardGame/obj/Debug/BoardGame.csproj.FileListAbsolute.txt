@@ -12,3 +12,6 @@ C:\Users\Mady\Source\Repos\BoardGame\BoardGame\BoardGame\obj\Debug\BoardGame.pdb
 C:\Users\Mady\Source\Repos\BoardGame\BoardGame\BoardGame\bin\Debug\BoardGame.exe
 C:\Users\Mady\Source\Repos\BoardGame\BoardGame\BoardGame\bin\Debug\BoardGame.pdb
 C:\Users\Mady\Source\Repos\BoardGame\BoardGame\BoardGame\obj\Debug\BoardGame.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Source\Repos\BoardGame\BoardGame\BoardGame\obj\Debug\BoardGame.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Source\Repos\BoardGame\BoardGame\BoardGame\bin\Debug\BoardGame.exe
+C:\Users\Admin\Source\Repos\BoardGame\BoardGame\BoardGame\bin\Debug\BoardGame.pdb

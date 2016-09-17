@@ -8,6 +8,7 @@ namespace BoardGame
     public class Game
     {
         private Map map;
+        private List<Pawn> pawns;
 
         public Map Map
         {
@@ -19,6 +20,19 @@ namespace BoardGame
             set
             {
                 map = value;
+            }
+        }
+
+        public List<Pawn> Pawns
+        {
+            get
+            {
+                return pawns;
+            }
+
+            set
+            {
+                pawns = value;
             }
         }
 
@@ -40,17 +54,20 @@ namespace BoardGame
             Map.Height = 10;
             Map.Tiles = MapGenerator.GenerateMap(Map.Width, Map.Height);
 
-
-           var p1 = new Pawn(0, 0, "A");
-           var t1 = new Tile();
-            t1.Element = p1;
-            Map.Tiles[0, 0] = t1;
-
+            Pawns = new List<Pawn>();
+            var p1 = new Pawn(0, 0, "A");
             var p2 = new Pawn(Map.Height - 1, Map.Width - 1, "B");
-            var t2= new Tile();
-            t2.Element = p2;
-            Map.Tiles[Map.Height - 1, Map.Width - 1] = t2;
+            Pawns.Add(p1);
+            Pawns.Add(p2);
+            PrintPawns();
+        }
 
+        private void PrintPawns()
+        {
+            foreach (var p in Pawns)
+            {
+                p.Print();
+            }
         }
     }
 }

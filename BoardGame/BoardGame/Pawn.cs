@@ -20,7 +20,8 @@ namespace BoardGame
 
         internal override void Print()
         {
-            Console.Write(name);
+            Console.WriteLine("Pawn: " + name);
+            Location.Print();
         }
     }
 }

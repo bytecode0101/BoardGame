@@ -15,16 +15,16 @@
     </TypeIdentifier>
   </Class>
   <Class Name="BoardGame.Resource">
-    <Position X="4.75" Y="4.25" Width="1.5" />
+    <Position X="4.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
       <FileName>Resource.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BoardGame.Pawn">
-    <Position X="6.75" Y="4.25" Width="1.5" />
+    <Position X="6.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAEAAA=</HashCode>
       <FileName>Pawn.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -43,16 +43,16 @@
     </TypeIdentifier>
   </Class>
   <Class Name="BoardGame.Tile">
-    <Position X="2.5" Y="2" Width="1.5" />
+    <Position X="2.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAEAAA=</HashCode>
       <FileName>Card.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BoardGame.AbstractMapElement">
-    <Position X="5.25" Y="2.25" Width="1.75" />
+    <Position X="5.25" Y="1" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAEAAA=</HashCode>
       <FileName>AbstractMapElement.cs</FileName>
     </TypeIdentifier>
   </Class>
