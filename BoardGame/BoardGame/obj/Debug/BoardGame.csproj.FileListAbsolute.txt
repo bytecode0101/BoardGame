@@ -1,0 +1,9 @@
+c:\users\admin\documents\visual studio 2015\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\BoardGame.pdb
+c:\users\admin\documents\visual studio 2015\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\BoardGame.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2015\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\BoardGame.pdb
+c:\users\admin\documents\visual studio 2015\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\BoardGame.exe
+c:\users\admin\documents\visual studio 2015\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\BoardGame.exe
+C:\Users\Admin\Source\Repos\BoardGame\BoardGame\ClassLibrary1\obj\Debug\BoardGame.exe
+C:\Users\Admin\Source\Repos\BoardGame\BoardGame\ClassLibrary1\obj\Debug\BoardGame.pdb
+C:\Users\Admin\Source\Repos\BoardGame\BoardGame\BoardGame\obj\Debug\BoardGame.exe
+C:\Users\Admin\Source\Repos\BoardGame\BoardGame\BoardGame\obj\Debug\BoardGame.pdb
