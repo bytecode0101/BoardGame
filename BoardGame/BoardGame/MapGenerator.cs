@@ -8,20 +8,24 @@ namespace BoardGame
 {
     class MapGenerator
     {
-        public static Tile[,] GenerateMap(int x, int y)
-        {
-            Tile[,] res = new Tile[x,y];
+        static Random random;
+        static List<ResourceType> availableResources;
 
-            List<ResourceType> availableResources = new List<ResourceType>();
+        static MapGenerator()
+        {
+            availableResources = new List<ResourceType>();
+            random = new Random(availableResources.Count);
 
             availableResources.Add(new Water());
             availableResources.Add(new Air());
             availableResources.Add(new Light());
             availableResources.Add(new Earth());
             availableResources.Add(new Life());
+        }
 
-
-            Random random = new Random(5);
+        public static Tile[,] GenerateMap(int x, int y)
+        {
+            Tile[,] res = new Tile[x, y];
 
             for (int i = 0; i < x; i++)
             {
@@ -33,7 +37,7 @@ namespace BoardGame
                     {
                         ResourceType = availableResources[r].Clone()
                     };
-                    res[i, j] = tile;              
+                    res[i, j] = tile;
                 }
             }
 

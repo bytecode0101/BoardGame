@@ -8,6 +8,7 @@ namespace BoardGame
     public class DiceThrower
     {
         List<Dice> dices = new List<Dice>();
+
         public DiceThrower()
         {
             dices.Add(new Dice());
@@ -20,7 +21,6 @@ namespace BoardGame
             for (int i = 0; i < dices.Count; i++)
             {
                 res[i] = dices[i].Throw();
-
             }
 
             return res;
