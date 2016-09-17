@@ -21,5 +21,10 @@ namespace BoardGame
                 element = value;
             }
         }
+
+        internal void Print()
+        {
+            Element.Print();
+        }
     }
 }

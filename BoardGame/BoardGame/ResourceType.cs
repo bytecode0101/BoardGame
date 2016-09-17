@@ -23,5 +23,8 @@ namespace BoardGame
         }
 
         public abstract ResourceType Clone();
+
+        internal abstract void Print();
+       
     }
 }

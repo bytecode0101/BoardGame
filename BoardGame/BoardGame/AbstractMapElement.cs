@@ -5,18 +5,24 @@ using System.Text;
 
 namespace BoardGame
 {
-    public class AbstractMapElement
+    public abstract class AbstractMapElement
     {
+        private Point location;
+
         public Point Location
         {
             get
             {
-                throw new System.NotImplementedException();
+                return location;
             }
 
             set
             {
+                location = value;
             }
         }
+
+        internal abstract void Print();
+        
     }
 }

@@ -37,6 +37,20 @@ namespace BoardGame
             }
         }
 
+        internal void Print()
+        {
+            for (int i = 0; i < height; i++)
+            {
+                for (int j = 0; j < width; j++)
+                {
+                    Tiles[i, j].Print();
+                    Console.Write("\t");
+                }
+
+                Console.WriteLine();
+            }
+        }
+
         public int Height
         {
             get

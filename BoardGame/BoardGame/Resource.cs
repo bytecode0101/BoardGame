@@ -21,5 +21,10 @@ namespace BoardGame
                 resourceType = value;
             }
         }
+
+        internal override void Print()
+        {
+            ResourceType.Print();
+        }
     }
 }

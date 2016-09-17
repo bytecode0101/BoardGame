@@ -17,82 +17,82 @@
   <Class Name="BoardGame.Resource">
     <Position X="4.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
       <FileName>Resource.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BoardGame.Pawn">
     <Position X="6.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
       <FileName>Pawn.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BoardGame.ResourceType">
     <Position X="2.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAABA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAEABA=</HashCode>
       <FileName>ResourceType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BoardGame.Map">
     <Position X="0.5" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAABAAAAAQAQAAAAEAAAgAAAAIAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAABAAAAAQAQAAAAEAAAgAAAAIAAAAAAAAEAAA=</HashCode>
       <FileName>Map.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BoardGame.Tile">
     <Position X="2.5" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAEAAA=</HashCode>
       <FileName>Card.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BoardGame.AbstractMapElement">
     <Position X="5.25" Y="2.25" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
       <FileName>AbstractMapElement.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BoardGame.Earth">
     <Position X="0.5" Y="6.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABA=</HashCode>
       <FileName>Earth.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BoardGame.Light">
     <Position X="2.25" Y="6.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABA=</HashCode>
       <FileName>Ligth.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BoardGame.Water">
     <Position X="4" Y="6.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABA=</HashCode>
       <FileName>Water.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BoardGame.Air">
     <Position X="5.75" Y="6.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABA=</HashCode>
       <FileName>Air.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BoardGame.Life">
     <Position X="7.5" Y="6.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABA=</HashCode>
       <FileName>Life.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BoardGame.Point">
-    <Position X="7.5" Y="2.25" Width="1.5" />
+    <Position X="8.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
       <FileName>Point.cs</FileName>
@@ -101,7 +101,7 @@
   <Class Name="BoardGame.Game">
     <Position X="7.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM=</HashCode>
+      <HashCode>gAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM=</HashCode>
       <FileName>Game.cs</FileName>
     </TypeIdentifier>
   </Class>
