@@ -24,7 +24,7 @@
   <Class Name="BoardGame.Pawn">
     <Position X="8" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAEAAAAAAAAAAAEAAA=</HashCode>
+      <HashCode>AAAAAAAAEIAAACAAAAAAAAAAAAAEAAAAAAAAAAAEAAA=</HashCode>
       <FileName>Pawn.cs</FileName>
     </TypeIdentifier>
   </Class>

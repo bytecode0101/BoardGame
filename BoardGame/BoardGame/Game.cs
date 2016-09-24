@@ -60,10 +60,21 @@ namespace BoardGame
 
         private void Play()
         {
+            Console.WriteLine("Press ENTER to throw dice");
             Console.ReadLine();
             Console.Clear();
+
+
             Pawns[0].Move(3, 4);
+            Pawns[0].CollectResource(Map.Tiles[3,4].Element);
+
+
+            Pawns[1].Move(4, 5);
+            Pawns[1].CollectResource(Map.Tiles[4, 5].Element);
+
+
             PrintMap();
+            
           var dt =  DiceThrower.ThrowDices();
         }
 
@@ -96,6 +107,7 @@ namespace BoardGame
             foreach (var p in Pawns)
             {
                 p.Print();
+                Console.WriteLine();
             }
         }
     }
