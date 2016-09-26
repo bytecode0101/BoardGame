@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,23 +11,58 @@ namespace BoardGame
        
         private string name;
         private List<Resource> resources;
-        
+
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+
+            set
+            {
+                name = value;
+            }
+        }
+
+        public List<Resource> Resources
+        {
+            get
+            {
+                return resources;
+            }
+
+            set
+            {
+                resources = value;
+            }
+        }
+
+        internal void CollectResource(Resource resource1, object resource2, Pawn pawn, Pawn p2)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void CollectResource(Resource resource1, object resource2)
+        {
+            throw new NotImplementedException();
+        }
 
         public Pawn(int v1, int v2, string v3)
         {
             Location = new Point();
             Location.X = v1;
             Location.Y = v2;
-            name = v3;
-            resources = new List<Resource>();
+            Name = v3;
+            Resources = new List<Resource>();
         }
 
         internal override void Print()
         {
-            Console.WriteLine("Pawn: " + name);
+            Console.WriteLine("Pawn: " + Name);
             Location.Print();
             Console.Write("Resources: ");
-            foreach (var resource in resources)
+            foreach (var resource in Resources)
             {
                 resource.Print();
             }
@@ -41,7 +77,14 @@ namespace BoardGame
 
         public void CollectResource(Resource resource)
         {
-            resources.Add(resource);
+            Resources.Add(resource);
         }
+
+        public void Attack(string opponentName)
+        {
+            Console.WriteLine("{0} attacks {1}" , Name, opponentName );
+        }
+       
+
     }
 }

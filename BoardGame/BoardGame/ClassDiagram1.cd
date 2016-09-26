@@ -24,7 +24,7 @@
   <Class Name="BoardGame.Pawn">
     <Position X="8" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAEIAAACAAAAAAAAAAAAAEAAAAAAAAAAAEAAA=</HashCode>
+      <HashCode>AAAAAAAAMIAAACAAAAAAAAQAAIAEAAAAAAAAAAAEAAA=</HashCode>
       <FileName>Pawn.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -101,8 +101,22 @@
   <Class Name="BoardGame.Game">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>gAAAEAAgBBAAAAQAAAAAAAAAAAAAAAAAgBAAAAAQAAM=</HashCode>
+      <HashCode>gAAAEAAgBhAAAAQAAAAAAACAAAAAAAAAgJAAAAAQAAM=</HashCode>
       <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGame.Judge">
+    <Position X="11" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Judge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardGame.SimpleJudge">
+    <Position X="11" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>SimpleJudge.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Enum Name="BoardGame.Color">

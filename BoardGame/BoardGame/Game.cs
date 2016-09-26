@@ -10,6 +10,9 @@ namespace BoardGame
         private Map map;
         private List<Pawn> pawns;
         private DiceThrower diceThrower;
+        int AttackDistance = 3;
+        private Judge judge;
+
 
         public Map Map
         {
@@ -65,17 +68,48 @@ namespace BoardGame
             Console.Clear();
 
 
-            Pawns[0].Move(3, 4);
-            Pawns[0].CollectResource(Map.Tiles[3,4].Element);
+            //      Pawns[0].Move(3, 4);
+            //      Pawns[0].CollectResource(Map.Tiles[3,4].Element);
 
 
-            Pawns[1].Move(4, 5);
-            Pawns[1].CollectResource(Map.Tiles[4, 5].Element);
-
-
-            PrintMap();
+            //      Pawns[1].Move(4, 5);
+            //     Pawns[1].CollectResource(Map.Tiles[4, 5].Element);
+            var turn = 0;
+            while (true)
+            {
+                var index = turn % pawns.Count;
+                var dices = DiceThrower.ThrowDices();
+                Pawns[index].Move(dices[0], dices[1]);
+                Pawns[index].CollectResource(Map.Tiles[dices[0], dices[1]].Element);
+                turn++;
+                
+              
+                PrintMap();
+                CalculateAttacks(index);
+                Console.ReadLine();
+            }
             
-          var dt =  DiceThrower.ThrowDices();
+            var dt =  DiceThrower.ThrowDices();
+        }
+
+        private void CalculateAttacks(int index)
+        {
+            for (int i = 0; i < pawns.Count; i++)
+            {
+
+                if (index != i)
+                {
+                    var d = Math.Sqrt(Math.Pow(Pawns[i].Location.X - Pawns[index].Location.X, 2) +
+                                    Math.Pow(Pawns[i].Location.Y - Pawns[index].Location.Y, 2));
+                    if (d < AttackDistance)
+                    {
+                        Pawns[index].Attack(Pawns[i].Name);
+                        judge.DecideTheWinner(Pawns[index], Pawns[i]);
+                        
+                    }
+
+                }
+            }
         }
 
         private void PrintMap()
@@ -86,6 +120,7 @@ namespace BoardGame
 
         private void LoadGame()
         {
+            judge = new SimpleJudge();
             Map = new Map();
             Map.Width = 10;
             Map.Height = 10;
@@ -110,5 +145,9 @@ namespace BoardGame
                 Console.WriteLine();
             }
         }
+
+      
+
+        
     }
 }
