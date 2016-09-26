@@ -57,35 +57,35 @@
     </TypeIdentifier>
   </Class>
   <Class Name="BoardGame.Earth">
-    <Position X="2" Y="7.25" Width="1.5" />
+    <Position X="0.75" Y="9.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABA=</HashCode>
       <FileName>Earth.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BoardGame.Light">
-    <Position X="3.75" Y="7.25" Width="1.5" />
+    <Position X="2.5" Y="9.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABA=</HashCode>
       <FileName>Ligth.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BoardGame.Water">
-    <Position X="5.5" Y="7.25" Width="1.5" />
+    <Position X="4.25" Y="9.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABA=</HashCode>
       <FileName>Water.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BoardGame.Air">
-    <Position X="7.25" Y="7.25" Width="1.5" />
+    <Position X="6" Y="9.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABA=</HashCode>
       <FileName>Air.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BoardGame.Life">
-    <Position X="9" Y="7.25" Width="1.5" />
+    <Position X="7.75" Y="9.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABA=</HashCode>
       <FileName>Life.cs</FileName>

@@ -103,7 +103,6 @@ namespace BoardGame
                                     Math.Pow(Pawns[i].Location.Y - Pawns[index].Location.Y, 2));
                     if (d < AttackDistance)
                     {
-                        Pawns[index].Attack(Pawns[i].Name);
                         judge.DecideTheWinner(Pawns[index], Pawns[i]);
                         
                     }

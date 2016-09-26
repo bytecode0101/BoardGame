@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BoardGame
 {
-    public abstract class Judge : Game
+    public abstract class Judge 
     {
         public abstract Pawn DecideTheWinner(Pawn p1, Pawn p2);
         
